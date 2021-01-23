@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chapter_21_to_30</title>
+</head>
+
+<body>
+
+</body>
+<script>
+    function reverse(sliceText) {
+        let newText = "";
+        for (let i = sliceText.length - 1; i >= 0; i--) {
+            newText = newText + sliceText[i];
+        }
+        return newText;
+    }
+
+    String.prototype.capitalize = function () {
+        return this.charAt(0).toUpperCase() + this.slice(1);
+    }
+
+    console.log("First Assignment");
+    // var inp=Math.ceil(prompt("Enter Number With Decimal Point : "));
+    var text = "Cloud Native Computing is very informative Course.";
+    console.log(text);
+
+    sliceText = text.slice(0, 5);
+    console.log("Slice Text : " + sliceText);
+
+    console.log("After Reversing Slice Text :", reverse(sliceText));
+
+    // 2nd Assignment
+    console.log("2nd Assignment");
+    var stringValue = prompt("Enter String : ");
+
+    console.log("Before Changing Value : " + stringValue);
+    console.log("After Changing Value : ", stringValue.capitalize());
+
+</script>
+
+</html>

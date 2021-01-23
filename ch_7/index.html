@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Form</title>
+</head>
+
+<body>
+   <h1>Chapter # 7 - Forms</h1>
+    <form>
+        <fieldset>
+            <legend>Your Details:</legend>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name"><br><br>
+            <label for="Email">Email:</label>
+            <input type="text" id="Email" name="Email">
+        </fieldset>
+    </form>
+    <br>
+    <form>
+        <fieldset>
+            <legend>Your Review:</legend>
+            <label for="list">How did you hear about us?:</label>
+            <select name="social" id="social">
+                <option value="Google">Google</option>
+                <option value="LinkedIn">LinkedIn</option>
+                <option value="Facebook">Facebook</option>
+                <option value="skype">skype</option>
+            </select>
+            <br><br>
+
+
+            <form action="">
+                <label for="Visit">Would you visit again?</label><br>
+                <input type="radio" name="Visit" value="yes"> Yes
+                <input type="radio" name="Visit" value="Nobelium"> No
+                <input type="radio" name="Visit" value="maybe"> Maybe
+
+                <br>
+            </form>
+            <form action="/action_page.php">
+                <label for="Visit">Comments:</label><br>
+                <textarea name="message" rows="10" cols="30"> </textarea>
+                <br>
+                <input type="checkbox">
+                <label for="Visit">Sign me up for email updates:</label><br>
+                <br>
+                <input type="submit">
+              </form>
+              
+        </fieldset>
+    </form>
+
+
+</body>
+
+</html>
