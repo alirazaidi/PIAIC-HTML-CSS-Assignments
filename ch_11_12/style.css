@@ -1,0 +1,15 @@
+
+.shadow{
+    
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.712), 0 0 1em rgba(0, 0, 255, 0.418), 0 0 0.2em blue;
+      
+}
+.font1{
+    font-size: 5px;
+              
+}
+
+.titlefont{
+            font-family: verdana;
+            font-weight: bold;
+        }
